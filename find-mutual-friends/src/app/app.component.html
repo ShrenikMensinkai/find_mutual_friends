@@ -1,0 +1,13 @@
+<div>
+  <form [formGroup]="twitteraccounts" (ngSubmit)="compareAccount()">
+      <label>
+        Account 1:
+        <input type="text" formControlName="account1">
+      </label>
+      <label>
+        Account 2:
+        <input type="text" formControlName="account2">
+      </label>
+    <button type="submit">Submit</button>
+  </form>
+</div>
